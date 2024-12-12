@@ -1,6 +1,8 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+left, right = st.columns(2)
+left.image("image2.jpg", width=177)
+right.header("Flavia Baotic")
+st.header("IT- Kompetenzen", anchor=False, divider="blue")
+st.write
+
